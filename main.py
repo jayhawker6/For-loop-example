@@ -1,5 +1,8 @@
 import time
 
+start_time = time.time()
+
+
 #
 #👋 Hi, I’m @jayhawker6
 #👀 I’m interested in Python, Dart, Java, And Kotlin.
@@ -18,3 +21,4 @@ for x in range(0, 1000):
     time.sleep(.01)
     print('I am %d going on %d!' % (x, x + 1))
 print("I am 1000 and I'm tired of counting!")
+quit("--- %s of runtime ---" % (time.time() - start_time))
