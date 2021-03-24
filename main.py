@@ -1,6 +1,5 @@
 import time
 
-
 #
 #👋 Hi, I’m @jayhawker6
 #👀 I’m interested in Python, Dart, Java, And Kotlin.
@@ -15,7 +14,7 @@ import time
 #      -Ghandi
 #
 
-for x in range(0,1000):
-	time.sleep(.01)
-	print('I am %d going on %d!' % (x, x+1))
+for x in range(0, 1000):
+    time.sleep(.01)
+    print('I am %d going on %d!' % (x, x + 1))
 print("I am 1000 and I'm tired of counting!")
